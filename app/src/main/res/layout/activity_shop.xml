@@ -38,9 +38,10 @@
         app:layout_constraintVertical_bias="0.035" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/home1"
         android:layout_width="187dp"
         android:layout_height="167dp"
+        android:onClick="homeclick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.035"
@@ -50,9 +51,10 @@
         app:srcCompat="@drawable/kitchen" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/beauty1"
         android:layout_width="190dp"
         android:layout_height="167dp"
+        android:onClick="beautyclick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.927"
@@ -88,11 +90,12 @@
         app:layout_constraintVertical_bias="0.447" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/pet1"
         android:layout_width="188dp"
         android:layout_height="132dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="215dp"
+        android:onClick="petclick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -102,9 +105,10 @@
         app:srcCompat="@drawable/petsupplies" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/toy1"
         android:layout_width="196dp"
         android:layout_height="168dp"
+        android:onClick="toyclick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.953"
